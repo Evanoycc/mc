@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "mortgage-calculator.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/mortgage-calculator.html" }
+  ]
+}
